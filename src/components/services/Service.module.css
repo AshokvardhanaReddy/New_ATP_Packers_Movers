@@ -1,0 +1,84 @@
+.service_div {
+  /* height: 300px; */
+  border-radius: 10px;
+  /* margin-top: 7%; */
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+.service_image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+}
+.heading_h2 {
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+.paragraph {
+  text-align: center;
+  padding: 4.5%;
+  font-size: 1rem;
+
+}
+
+/* Medium Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .heading_h2 {
+    font-size: 1.3rem;
+  }
+  .paragraph {
+    text-align: justify;
+    font-size: 1rem;
+  }
+}
+
+/* Small Devices */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .heading_h2 {
+    font-size: 1.3rem;
+  }
+  .paragraph {
+    text-align: justify;
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Devices */
+@media screen and (min-width: 371px) and (max-width: 576px) {
+  .service_div {
+    padding: 0.5rem none;
+  }
+  .service_image {
+    width: 90px;
+    height: 90px;
+  }
+  .heading_h2 {
+    font-size: 1.1rem;
+  }
+  .paragraph {
+    text-align: justify;
+    font-size: 0.875rem;
+  }
+}
+
+/* Extra Large Small Devices */
+@media screen and (max-width: 370px) {
+  .service_div {
+    padding: 0.5rem none;
+  }
+  .service_image {
+    width: 80px;
+    height: 80px;
+  }
+  .heading_h2 {
+    font-size: 0.9rem;
+  }
+  .paragraph {
+    text-align: justify;
+    font-size: 0.75rem;
+  }
+}
