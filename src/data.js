@@ -122,7 +122,7 @@ const about = {
     {
       id: 1,
       service_title:
-        "Quality Packers & Movers is one of the top packers Since 2017. We have been movers and packers in Ongole. It provides different types of Services that are affordable.",
+        "New ATP Packers & Movers is one of the top packers Since 2017. We have been movers and packers in Ongole. It provides different types of Services that are affordable.",
     },
   ],
 };
@@ -149,13 +149,13 @@ const findUs = {
     {
       id: 1,
       service_title:
-        "2-74/B, Nehru Nagar, Near Nehru Nagar, 60 Feet Road Ending, Ongole, A.P - 523001",
+        "2nd Line, Near BR Function Hall, Mitra Hotel, Ananthapuram, A.P - 525001",
     },
     {
       id: 2,
-      service_title: "+91 77020 47755",
+      service_title: "+91 79898 90300",
     },
-    { id: 3, service_title: "qualitypackersmovers.ongole@gmail.com" },
+    { id: 3, service_title: "packersmovers.atp@gmail.com" },
   ],
 };
 
